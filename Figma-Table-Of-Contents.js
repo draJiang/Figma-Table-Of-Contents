@@ -73,6 +73,7 @@ if (windowEl.querySelector("style") != true) {
         margin-bottom:4px;
         cursor: default;
         padding: 4px;
+        font-size: 0.8rem;
     }
 
     .result_list li:hover {
@@ -120,7 +121,7 @@ function ui() {
       min-height: 400px;
       background-color: var(--color-bg, #fff);
       inset: 0px;
-      margin: 52px 244px 10px auto;
+      margin: 54px auto 0px 248px;
       z-index: 111;
       overflow: hidden;
       box-shadow: rgb(20 15 35 / 17%) 0px 2px 4px, rgb(17 17 17 / 14%) 0px 10px 23px;
@@ -282,7 +283,6 @@ function setTableOfContent(pageList) {
 
                 // 画布聚焦到对应的图层 //
                 figma.viewport.scrollAndZoomIntoView([item]);
-
                 setActiveStyle(e.target)
 
 
